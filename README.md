@@ -1,3 +1,6 @@
+Add songs/music files in wave format to folder "FingerprintSongs" to fingerprint this songs and then use application to recognise them.
+To fingerprint the songs first add them in the folder "FingerprintSongs" then run python file "fingerprint_songs" to fingerprint them. After all this steps you will be able to identify music/songs details.
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
