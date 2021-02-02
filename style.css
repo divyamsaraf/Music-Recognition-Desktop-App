@@ -1,0 +1,51 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background: white;
+    color: black;
+    align-self: stretch;
+    -webkit-app-region: drag ;
+}
+
+#content {
+    display: flex;
+    /* height: 100vh; */
+    flex-direction: column;
+    background: black;
+    align-items: center;
+}
+
+.option {
+    color: black;
+    padding: 1px 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    -webkit-app-region: no-drag ;
+
+
+}
+
+.option:hover {
+    background: red;
+
+}
+
+#bg {
+    background: url(logo2.gif) no-repeat center bottom fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 400px 400px;
+}
+
+#bottom {
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 10px;
+    width: 90%;
+}
